@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+        <form id="resume-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="text" id="email" placeholder="Your Email" required>
+            <input type="text" id="phone" placeholder="Your Phone" required>
+            <textarea id="experience" placeholder="Your Experience" required></textarea>
+            <textarea id="education" placeholder="Your Education" required></textarea>
+            <button type="submit">Generate Resume</button>
+        </form>
+        <div id="resume" class="resume">
+            <h2>Resume Preview</h2>
+            <div id="resume-content"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
